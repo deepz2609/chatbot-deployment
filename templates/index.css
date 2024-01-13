@@ -1,0 +1,95 @@
+/* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+.header {
+    background: url("path/to/your/bg-image.jpg") center center/cover no-repeat; /* Replace with your background image path */
+    color: #fff; /* Text color on the background image */
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Styling for the top section of the header */
+.header__top {
+    padding: 10px 0;
+}
+
+.logo__img--small img {
+    max-height: 40px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff; /* Logo text color on the background image */
+}
+
+.navbar-light .navbar-toggler-icon {
+    border-color: #fff; /* Toggler icon color on the background image */
+}
+
+/* Styling for the middle section of the header */
+.header__mid {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for the middle section */
+    padding: 10px 0;
+}
+
+.logo__img img {
+    max-height: 60px;
+}
+
+.header__mid__text {
+    font-size: 1.2rem;
+}
+
+/* Styling for the bottom section of the header */
+.header__btm {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for the bottom section */
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+/* Style the dropdown menus */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+/* Add a subtle hover effect to navigation links */
+.navbar-nav .nav-item:hover .nav-link {
+    color: #007bff;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 767px) {
+    .header__mid {
+        text-align: center;
+    }
+
+    .header__mid__text {
+        margin-top: 10px;
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+    }
+}

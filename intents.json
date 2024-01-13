@@ -1,0 +1,620 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hey","Hello","Good day"],
+      "responses": [
+        "Hello  How can I assist you today?",
+        "Hi there  How can I help?",
+        "Good day  What can I do for you?"
+      ]
+    },
+    {
+      "tag": "Mahesh Prasanna",
+      "patterns": ["Tell me about Dr. Mahesh Prasanna K","Faculty information for Dr. Mahesh Prasanna K","Details about Professor Mahesh Prasanna" ],
+      "responses": ["Dr. Mahesh Prasanna K is a Professor   and Principal in the Department of Electronics and Communication Engineering.He joined the institution on 16  01  2015."]
+      
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+      "responses": ["You're welcome ", "Anytime ", "Happy to help "]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Goodbye", "See you later", "Bye"],
+      "responses": ["Goodbye  If you have more questions, feel free to ask.", "See you later ", "Bye "]
+    },
+    {
+      "tag": "Adress",
+      "patterns": ["What if the address of the college?", "Address",  "Address of VCET"],
+
+      "responses": ["Vivekananda College Campus, Neharu Nagara, PUTTUR, 574203"]
+    },
+    {
+      "tag": "website",
+      "patterns": ["Website link?", "College website",  "Website of VCET"],
+      "responses": ["www.vcetputtur.ac.in"]
+    },
+    {
+      "tag": "Contactdetails",
+      "patterns": ["How to contact?", "contact details of VCET",  "COntact VCET","contact"],
+      "responses": ["Phone number with STD code 08251 234555 ,FAX number with STD code 08251 236444 ,Email principal@vcetputtur.ac.in "]
+    },
+    {
+      "tag": "Board",
+      "patterns": ["who are there in Board committe", "Board Committe Members",  "Board of vcet"],
+      "responses": ["1. Sri. K. Vishwas Shenoy President,2. Sri. T. S. Subrahmanya Bhat Correspondent, 3. Sri. Muralidhara Bhat B. Treasurer ,4. Sri. Ravikrishna D Kallaje ,Director , 5. Dr. Suresh Putturaya Director,6. Sri. Santhosh Kuthamotte, 7. Sri. Sathyanarayana B ,8. Dr. Yashoda Ramachandra, 9. Dr. Mahesh Prasanna K ,10. Prof. Sowmya Anil"  ]
+    },
+    {
+      "tag": "website",
+      "patterns": ["Website link?", "College website",  "Website of VCET"],
+      "responses": ["www.vcetputtur.ac.in"]
+    },
+    
+    {
+      "tag": "Ms.Manasa P",
+      "patterns": ["Tell me about Ms. Manasa P","Faculty information for Ms.Manasa P","Details about Professor Ms.Manasa P"],
+      "responses": ["Ms. Manasa P serves as an Assistant Professor in the Computer Science department contributing her expertise since joining the institution on 20  08 2020."]
+    },
+    {
+      "tag": "Ananda",
+      "patterns": ["Tell me about Dr. Ananda V R A","Faculty information for Dr. Ananda V R A","Details about Professor Dr. Ananda V R "
+      ],
+      "responses": ["Dr. Ananda V R, serving as Professor & Head in the Civil Engineering department, has been a dynamic force since joining the institution on 1st August 2020. With a robust academic background, including a Bachelor's in Engineering with an outstanding 79.50%, a Master's in Technology with a remarkable 80%, and a completed PhD, Dr. Ananda brings a wealth of knowledge and leadership to the department. With a cumulative experience of 15 years in teaching and 2 years in industry, Dr. Ananda is dedicated to fostering academic excellence and contributing to the growth of students and the institution." ]
+    },
+    {
+      "tag": "Prashantha",
+      "patterns": ["Tell me about Mr.Prashantha","Faculty information for Prashantha","Details about Professor Mr. Prashantha "
+      ],
+      "responses": ["Prashantha has been a dedicated member of the teaching staff, holding the position of Assistant Professor in the Civil Engineering department since joining the institution on 5th November 2005. With a strong academic foundation, including a Bachelor's in Engineering with an impressive 78% and a Master's in Technology with a notable 8.3 CGPA, Prashantha brings valuable experience and expertise to the academic community. With years of service, Prashantha continues to contribute to the growth and development of students in the field of Civil Engineering." ]
+    },
+    {
+      "tag": "Surekha",
+      "patterns": ["Tell me about Dr. Surekha ","Faculty information for  Surekha","Details about Professor Dr Surekha "
+      ],
+      "responses": ["Surekha T has been a valuable member of the institution, serving as an Assistant Professor in the Civil Engineering department since joining on 1st July 2015. With a solid academic background, including a Bachelor's in Engineering with a commendable 76.97% and a Master's in Technology with an impressive 85.57%, Surekha brings dedication and expertise to the academic community. Her commitment to excellence in teaching and research contributes to the overall academic growth and success of the department and its students." ]
+    },
+    {
+      "tag": "Shishirakrishna",
+      "patterns": ["Tell me about Shishirakrishna S ","Faculty information for Mr. Shishirakrishna","Details about Professor Shishirakrishna  "
+      ],
+      "responses": ["Shishirakrishna S is a dedicated member of the teaching staff, holding the position of Assistant Professor in the Civil Engineering department since joining the institution on 5th August 2022. With a solid academic foundation, including a Bachelor's in Engineering with a notable 73.8% and a Master's in Technology with an impressive 85.88%, Shishirakrishna contributes expertise and enthusiasm to the academic community. His recent addition to the faculty brings a fresh perspective to the field of Civil Engineering." ]
+    },
+    {
+      "tag": "Shrikanth Rao",
+      "patterns": ["Tell me about Shrikanth Rao ","Faculty information for Shrikanth Rao","Details about Professor Dr. Shrikanth Rao S.K  "
+      ],
+      "responses": ["Dr. Shrikanth Rao S.K has been an integral part of the institution, serving as an Assistant Professor in the Electronics and Communication department since joining on 7th August 2006. With a strong academic background, including a First Class in Bachelor of Engineering and a Master's in Technology with Distinction, Shrikanth contributes both experience and ongoing research pursuits to the academic community. Currently pursuing a PhD, his dedication to continuous learning enhances the academic environment in Electronics and Communication." ]
+    },
+    {
+      "tag": "Rajani Rai B",
+      "patterns": ["Tell me about Rajani Rai B ","Faculty information for Ms. Rajani Rai B","Details about Professor Rajani Rai B  "],
+      "responses": ["Rajani Rai B has been a dedicated member of the teaching staff, holding the position of Assistant Professor in the Electronics and Communication department since joining the institution on 23rd August 2005. With a robust academic background, including a First Class with Distinction in both Bachelor of Engineering and Master of Technology, Rajani contributes extensive experience and expertise to the academic community. Currently pursuing a PhD, her commitment to ongoing research enhances the department's academic environment." ]
+    },
+    {
+      "tag": "Sowmya Anil",
+      "patterns": ["Tell me about Ms. Sowmya Anil ","Faculty information for Sowmya Anil","Details about Professor Sowmya Anil  "],
+      "responses": ["Sowmya Anil has been a valuable member of the teaching staff, serving as an Assistant Professor in the Electronics & Communication department since joining the institution on 6th August 2006. With a solid academic foundation, including a Bachelor's in Engineering with a commendable 69% and a Master's in Technology with First Class with Distinction at 76%, Sowmya contributes dedicated expertise to the academic community. Her commitment to excellence in teaching is evident through years of service in the field of Electronics & Communication." ]
+    },
+    
+    {
+      "tag": "Computer Science & Engineering (Data Science)",
+      "patterns": ["Tell me about Computer Science & Engineering (Data Science)g","Details about Computer Science & Engineering (Data Science)g","Tell me about CSE((DS)/CD "],
+      "responses": ["Computer Science & Engineering (Data Science) is an allied branch of Computer Science, a Four year Under Graduate programme, which focuses on technology for creating intelligent machines which can think and work like human beings. The field of artificial intelligence has been an interdisciplinary endeavor, and is a technology which enables a machine to simulate human behavior. Machine learning is an application of artificial intelligence that provides systems the ability to automatically learn and improve from experience without being explicitly programmed. ML focuses on the development of computer programs that can access data and use it learn for themselves. Artificial intelligence has made its way through all sectors of society. Every person is using this technology in some or the other way. Moreover, it is modified for different age groups and industrial sectors. The program begins with introductory courses in programming, computer science, mathematics, and statistics that provide a firm technical foundation. From there, students learn core AI concepts and techniques of CSE((DS)/CD, Virtual Reality, Web Applications, Natural Language and Image Processing, Robotic Process Automation, Business Analytics, Speech Processing, Cognitive Systems, Biometrics Systems, Computer Vision, and Language Understanding. The program includes a variety of advanced AI electives, enabling technical mastery in specific subfields. Also, specific electives are introduced that will focus on the Application of AI in various industry."]
+    },
+    {
+      "tag": "Vision of the CSE((DS)/CD Department",
+      "patterns": ["Tell me the vision of CSE Department","Tell me the vision of Computer Science and Engineering Department"],
+      "responses": ["To exceed expectations as one of the alluded specialized Department, making progress through a dynamic learning environment; creating socially capable nationals."]
+   },
+    {
+      "tag": "Mission of  CSE((DS)/CD Department",
+      "patterns": ["Tell me about the Mission of CSE Department","Tell me about the mission of Computer Science and Engineering"],
+      "responses": ["M1: To create trained inventive and quality specialists in Computer Science. M2: To encourage staff to update skills and aptitudes by teaching proficient values in the alterably evolving environment. M3: To develop best in-class infrastructural facilities, making progress. M4: To produce commonly valuable associations with Government, Industry, Society, Alumni and advance Entrepreneurship."]
+       },
+    {
+      "tag": "Computer Science and Engineering  (Data Science) The Program Educational Objectives (PEOs)",
+      "patterns": ["The Program Educational Objectives (PEOs) of CSE", "The Program Educational Objectives (PEOs) of Computer Science and Engineerin", "PEO of CSE","PEO of Computer Science and Engineering"],
+      "responses": ["Work productively as Computer Engineers, including supportive and leadership roles in multidisciplinary domain.Participate in life-long learning through the successful completion of advanced degrees, continuing education, certifications and/or other professional developments.Promote design, research, product implementation and services in the field of Computer Science and Engineering through strong technical, communication and entrepreneurial skills."]
+    },
+    {
+      "tag": "Computer Science & Engineering (Data Science)g The Program Educational Objectives (PEOs)",
+      "patterns": ["The Program Educational Objectives (PEOs) of CSE((DS)/CD ", "The Program Educational Objectives (PEOs) of Computer Science & Engineering (Data Science)g", "PEO of CSE((DS)/CD ","PEO of Computer Science & Engineering (Data Science)g"],
+      "responses": ["Work productively as Computer Engineers, including supportive and leadership roles in multidisciplinary domain. Participate in life-long learning through the successful completion of advanced degrees, continuing education, certifications and/or other professional developments. Promote design, research, product implementation and services in the field of Computer Science and Engineering through strong technical, communication and entrepreneurial skills."]
+    },
+    {
+      "tag": "CSE((DS)/CD  Dept Highlights",
+      "patterns": ["What are the CSE((DS)/CD  Dept Highlights", "What are the Computer Science & Engineering (Data Science)g Dept Highlights", "What are the Computer Science & Engineering (Data Science)g Department Highlights", "What are the CSE((DS)/CD  Department Highlights"],
+      "responses": ["The Department of Artificial Intelligence& Machine learning is providing high quality education, along with training the students with all the new advancements. The learned and skilled Faculties of Department give prominence on all the important aspects of Computers, such as Data Structures, Design and Analysis of Algorithms, Python, Machine Learning, Artificial Intelligence, Deep Learning, Operating Systems, Data Science, Cloud Computing, and many more. The Department also takes initiative to improve the Soft Skills, Analytical Capabilities and Verbal Communication of the students by various club activities and trainings. The focus of the programs is on experiential learning implemented through course projects, mini projects and a major project along with seminars and assignments. The Department encourages and motivates the students to attend conferences and workshops and publish papers in national / international conferences / journals."]
+    },
+    {
+      "tag": "Laboratory Facilities",
+      "patterns": ["Laboratory Facilities", "What are the Laboratory Facilities", "Laboratory Facilities of CSE((DS)/CD  Dept","Laboratory Facilities of Computer Science Department"],
+      "responses": ["Python Lab, AI Lab, Machine Learning Lab, Computer Programming Lab, Data Structures Lab, Design and Analysis of Algorithms Lab, Analog and Digital Electronics Lab, Microprocessor Lab, Data base Management System Lab, Mobile Application Development Lab"]
+    },
+    {
+      "tag": "Vision",
+      "patterns": ["What overarching goals and values does VCET aim to achieve, as outlined in its vision statement?",
+      "What are the vision of the VCET?",
+      "Can you provide insights into VCET's long, term aspirations   vision  ?",
+      "How does VCET articulate its desired future state   vision  ?"],
+      "responses": ["Vision , To excel as one of the preferred technical institutes, achieving success through a dynamic learning environment thus leading to socially responsible citizens."]
+    },
+    {
+      "tag": "Mission",
+      "patterns": ["What overarching goals and values does VCET aim to achieve, as outlined in its mission statements?",
+      "What are the mission of the VCET?",
+      "Can you provide insights into VCET's fundamental purpose or reason for existence   mission  ?",
+      "How does takes to fulfill its purpose   mission  ?"],
+      "responses": ["Mission , Students: Mould students into engineers, capable of handling challenges both at professional and personal level thereby preparing them for life long learning. 1.Faculty: Facilitate faculty to upgrade competencies and skills by inculcating professional values in the dynamically changing environment. 2.Infrastructure: Build state, of, the, art infrastructural facilities contributing to students achieving success. 3.Stake holders: Forge mutually beneficial relationships with government, industry, society, alumni and promote entrepreneurship. 4.Teaching, learning: Cultivate innovative 'Teaching, Learning' environment with a student centric approach. 5.Governance: Incorporate participative decision making with focus on transparent governance system. "]
+    },
+    {
+      "tag": "cs hod",
+      "patterns": ["Who is the Head of department of computer science?",
+      "hod of cs",
+      "What individual currently leads the computer science department?",
+      "Can you provide information on the current head of the computer science department?",
+      "Who is currently in charge of the computer science department?"],
+      "responses": ["KRISHNA MOHANA A J is the HOD of CS department. Designation , Assistant Professor   and Head. Department , Computer Science   and Engineering. Date of Joining , 11  02  2019. Qualifications with Class , UG, BE, SC   56.84 perc  PG M.Tech, FCD   9.01  CGPA   PhD, NO"]
+    },
+    {
+      "tag": "ai cd hod",
+      "patterns": ["Who is the Head of department of Artificial Intelligence and Machine Learning and data science?",
+      "Who is the HOD of Artificial Intelligence and Machine Learning and data science?",
+      "What individual currently leads the Artificial Intelligence and Machine Learning and data science department?",
+      "Can you provide information on the current head of the Artificial Intelligence and Machine Learning and data science department?",
+      "Who is currently in charge of the Artificial Intelligence and Machine Learning and data science department?"],
+      "responses": ["Dr Govindaraj P is the HOD of Artificial Intelligence and Machine Learning and data science department. Designation , Associate Professor   and Head. Department AI and ML and Data science. Date of Joining  , 28  10  2021. Qualifications with Class , UG, BE, SC  60.2 perc  PG M.Tech, FC  69.10 perc  PhD, YES"]
+    },
+    {
+      "tag": "ec hod",
+      "patterns": ["Who is the Head of department of Electronics   and Communication?",
+      "Who is the HOD of Electronics   and Communication?",
+      "What individual currently leads the Electronics   and Communication department?",
+      "Who is currently in charge of the Electronics   and Communication department?"],
+      "responses": ["Shrikanth Rao S.K is the HOD of Electronics   and Communication department.Designation , Assistant Professor   and Head. Department , Electronics and Communication. Date of Joining , 07  08  2006. Qualifications with Class , UG, BE, FC PG M.Tech, FCD PhD, Pursuing"]
+    },
+    {
+      "tag": "civil hod",
+      "patterns": ["Who is the Head of department of Civil?",
+      "Who is the HOD of Civil?",
+      "What individual currently leads the Civil department?",
+      "Who is currently in charge of the Civil department?"],
+      "responses": ["Dr. Ananda V R is the HOD of the civil department. Designation , Professor   and Head. Department , Civil Engineering. Date of Joining , 01  08  2020. Qualifications with Class , UG, BE, FCD  79.50 perc  PG MTech, FCD  80 perc  PhD, Yes"]
+    },
+    {
+      "tag": "mech hod",
+      "patterns": ["Who is the Head of department of Mechanical?",
+      "Who is the HOD of Mechanical?",
+      "What individual currently leads the Mechanical department?",
+      "Who is currently in charge of the Mechanical department?"],
+      "responses": ["Dr. Manujesh B J is the HOD of the Mechanical department. Designation , Professor   and Head. Department , Mechanical Engineering. Date of Joining  , 29  06  2017. Qualifications with Class , UG, BE,  FCD    76.8 perc  PG – M.Tech , FCD    82.05 perc  PhD , Yes"]
+    },
+    {
+      "tag": "Mahesh Prasanna",
+      "patterns": [
+        "Tell me about Dr. Mahesh Prasanna K",
+        "Faculty information for Dr. Mahesh Prasanna K",
+        "Details about Professor Mahesh Prasanna"
+      ],
+      "responses": [
+        "Dr. Mahesh Prasanna K is a Professor   and Principal in the Department of Electronics and Communication Engineering.He joined the institution on 16  01  2015."
+        
+      ]
+      
+    },
+    {
+        "tag":"Mahesh Prasanna Qualification",
+        "patterns":["Tell me about the qualifications of the faculty "], 
+        "responses":["Qualifications: UG, BE, FC  64 perc  PG M.Tech, FCD  8.43 PhD, Yes"]  
+    },
+    {
+        "tag": "Dr. Jeevitha B K",
+        "patterns": [
+          "Tell me about Dr. Jeevitha B K",
+          "Faculty information for Dr. Jeevitha B K",
+          "Details about Professor Dr. Jeevitha B K"
+        ],
+        "responses": [
+          "Dr. Jeevitha B K is a Professor in the Department of Computer Science Engineering.She joined the institution on  28  08  2021."
+          
+        ]
+        
+      },
+      {
+        
+            "tag":"Dr. Jeevitha B K Qualification",
+            "patterns":["Tell me about the qualifications of the faculty Dr. Jeevitha B K"], 
+            "responses":["Qualifications: UG, BE, SC  59.56 perc  PG M.Tech, FCD  74.5 perc  PhD, Yes"]  
+        
+      },
+      {
+        "tag": "Vaishnavi K V",
+        "patterns": [
+          "Tell me about Vaishnavi K V",
+          "Faculty information for Vaishnavi K V ",
+          "Details about Professor Vaishnavi K V "
+        ],
+        "responses": [
+          "Vaishnavi K V is a Professor in the Department of AIML.She joined the institution on 15  09  2022."
+          
+        ]
+       
+      },
+      {
+        "tag": "Vaishnavi K V Qualification",
+        "patterns":["Tell me about the qualifications of the faculty Vaishnavi K V"],
+        "responses":["Qualifications:  UG, BE, FC  66 perc  PG M.Tech, FCD  78 perc  PhD, NO"]
+      },
+      {
+        "tag": "Harshitha K",
+        "patterns": [
+          "Tell me about Harshitha K ",
+          "Faculty information for  Harshitha K",
+          "Details about Professor Harshitha K "
+        ],
+        "responses": [
+          "Harshitha K is a Professor  in the Data Science.She joined the institution on 26  09  2022."
+          
+        ]
+        
+      },
+      {
+        "tag":"Harshitha K Qualification",
+        "patterns":["Tell me about the qualifications of the faculty  Harshitha K"],
+        "responses":["Qualifications:  UG, BE, FC  62 perc  PG M.Tech, FCD  81 perc  PhD, NO"]
+      },
+      {
+        "tag": "KRISHNA MOHANA A J",
+        "patterns": [
+          "Tell me about KRISHNA MOHANA A J",
+          "Faculty information for KRISHNA MOHANA A J",
+          "Details about Professor KRISHNA MOHANA A J"
+        ],
+        "responses": ["KRISHNA MOHANA A J is a Professor in the Department of Computer Science   and Engineering.He joined the institution on 11  02  2019."]
+    },
+    {
+      "tag":"KRISHNA MOHANA A J Qualification",
+      "patterns":["Tell me about the qualifications of the faculty KRISHNA MOHANA A J"],
+      "responses":["Qualifications: UG, BE, SC   56.84 perc  PG M.Tech, FCD   9.01  CGPA   PhD, NO"]
+    },
+    {
+      "tag": "Ms. Vandana Shankar",
+      "patterns": [
+        "Tell me about Ms. Vandana Shankar",
+        "Faculty information for Ms. Vandana Shankar",
+        "Details about Professor Ms. Vandana Shankar"
+      ],
+      "responses": [
+        "Ms. Vandana Shankar is a Professor in the Department of Basic Science   Humanities  and  Placement and Training Department   .She joined the institution on 01  08  2007."
+        
+      ]
+      
+    },
+    {
+      "tag":"Ms. Vandana Shankar Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Ms. Vandana Shankar"],
+      "responses":["Qualifications: UG, B.Com FC PG MBA, FC PhD NO"]
+    },
+    {
+      "tag": "Dr. Shwethambika P.",
+      "patterns": [
+        "Tell me about Dr.Shwethambika P.",
+        "Faculty information for  Dr.Shwethambika P",
+        "Details about Professor  Dr.Shwethambika P"
+      ],
+      "responses": [
+        " Dr.Shwethambika P is a Professor in the Department of Chemistry.She joined the institution on 10  06  2011."
+        
+      ]
+      
+    },
+    {
+      "tag":"Dr. Shwethambika P Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Dr. Shwethambika P"],
+      "responses":["Qualifications:  UG, BSc FCD  90.7 perc  PG MSc, FCD  79.2 perc  PhD Pursuing"]
+    },
+    {
+      "tag": "Dr. Chethan P.D.",
+      "patterns": [
+        "Tell me about Dr. Chethan P.D.",
+        "Faculty information for Dr. Chethan P.D.",
+        "Details about Professor Dr. Chethan P.D."
+      ],
+      "responses": [
+        "Dr. Chethan P.D. is a Professor in the Department of Chemistry.He joined the institution on  15  07  2013."
+        
+      ]
+      
+    },
+    {
+      "tag":"Dr. Chethan P.D Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Dr. Chethan P.D"],
+      "responses":["Qualifications: e UG, BSc FC  71 perc  PG M.Sc, FC  65 perc  PhD Yes"]
+    },
+  
+    {
+      "tag": "M RAMANANDA KAMATH",
+      "patterns": [
+        "Tell me about M RAMANANDA KAMATH",
+        "Faculty information for M RAMANANDA KAMATH",
+        "Details about Professor M RAMANANDA KAMATH"
+      ],
+      "responses": [
+        "M RAMANANDA KAMATH is Associate Professor   and Head in the Department of Basic Science   Mathematics  .He joined the institution on 16  01  2015."
+        
+      ]
+      
+    },
+    {
+      "tag":"M RAMANANDA KAMATH Qualification",
+      "patterns":["Tell me about the qualifications of the faculty M RAMANANDA KAMATH"],
+      "responses":["Qualifications:  UG, B.SC FCD  71.13 perc  PG M.Sc., FC  61.76 perc  PhD NO        "]
+    },
+  
+    {
+      "tag": "Dr. Raveesha P.M.",
+      "patterns": [
+        "Tell me about Dr. Raveesha P.M.",
+        "Faculty information for Dr. Raveesha P.M.",
+        "Details about Professor Dr. Raveesha P.M."
+      ],
+      "responses": [
+        "Dr. Raveesha P.M. is a Professor  in the Department of Basic Science   Physics  .He joined the institution on 16  03  2022."
+        
+      ]
+      
+    },
+    {
+      "tag":"Dr. Raveesha P.M Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Dr. Raveesha P.M"],
+      "responses":["Qualifications:UG   B.Sc.  , 60.88 perc , B.Ed. , 78.9 perc PG M.Sc.   Physics   72.88 perc  PhD Ye"]
+    },
+    {
+      "tag": "Neema H",
+      "patterns": [
+        "Tell me about Neema H",
+        "Faculty information for Neema H",
+        "Details about Professor Neema H"
+      ],
+      "responses": ["Neema H is a Professor in the Department of MCA.She joined the institution on 25  10  2021."]
+      
+    },
+    {
+      "tag":"Neema H Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Neema H"],
+      "responses":["Qualifications: UG, BCA FCD  91 perc  PG MCA, FCD  88 perc   "]
+    },
+    {
+      "tag": "DR SEKHAR S IYER",
+      "patterns": [
+        "Tell me about DR SEKHAR S IYER ",
+        "Faculty information for DR SEKHAR S IYER",
+        "Details about Professor DR SEKHAR S IYER"
+      ],
+      "responses": [
+        "DR SEKHAR S IYER is a Professor   and Director in the Department of MBA.He joined the institution on 27  03  2017."
+        
+      ]
+      
+    },
+    {
+      "tag":"DR SEKHAR S IYER Qualification",
+      "patterns":["Tell me about the qualifications of the faculty DR SEKHAR S IYER"],
+      "responses":["Qualifications: UG, BBM Dist. And Rank PG MBA   FC PhD Completed"]
+    },
+    {
+      "tag": "Guyton Lobo",
+      "patterns": [
+        "Tell me about Guyton Lobo",
+        "Faculty information for Guyton Lobo",
+        "Details about Professor Guyton Lobo"
+      ],
+      "responses": [
+        "Guyton Lobo is a Assistant Professor in the department of MBA  placement  .He joined the institution on 01.08.2009."
+        
+      ]
+      
+    },
+    {
+      "tag":"Guyton Lobo Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Guyton Lobo"],
+      "responses":["Qualifications: UG, BBM 50 perc  PG MBA, 60 perc  PhD N"]
+    },
+    {
+      "tag": "Mrs. Akshaya D. Shetty",
+      "patterns": [
+        "Tell me about Mrs. Akshaya D. Shetty ",
+        "Faculty information for Mrs. Akshaya D. Shetty",
+        "Details about Professor Mrs. Akshaya D. Shetty"
+      ],
+      "responses": [
+        "Mrs. Akshaya D. Shetty is a Professor in the Department of Artificial Intelligence   and Machine Learning .She joined the institution on 12  09  2022."
+        
+      ]
+      
+    },
+    {
+      "tag":"Mrs. Akshaya D. Shetty Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Mrs. Akshaya D. Shetty"],
+      "responses":["Qualifications:UG, BE, FCD  74.82 perc  PG M.Tech, FCD  79.6 perc   PhD,  Registered   Comprehensive done    "]
+    },
+    {
+      "tag": "Monica. K. P",
+      "patterns": ["Tell me about Monica. K. P","Faculty information for Monica. K. P","Details about Professor Monica. K. P"],
+   "responses": [
+        "Monica. K. P is a Professor   and Principal in the Department of Artificial Intelligence and Machine Learning.He joined the institution on 10  10  2022"
+        
+      ]
+      
+    },
+    {
+      "tag":"Monica. K. P Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Monica. K. P"],
+      "responses":["Qualifications: UG, BE, FC  65 perc  PG M.Tech, FCD  9.02 CGPA PhD, NO "]
+    },
+    {
+      "tag": "Abhishek kumar K",
+      "patterns":[ "Tell me about Abhishek kumar K","Faculty information for Abhishek kumar K","Details about Professor Abhishek kumar K"],
+      "responses": ["Abhishek kumar K is a Professor   and Principal in the Department of Electronics and Communication Engineering.He joined the institution on 16  01  2015."]
+    },
+    {
+      "tag":"Abhishek kumar K Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Abhishek kumar K"],
+      "responses":["Qualifications: UG, BE, FC  61 perc  PG M. Tech, FC  69 perc  PhD, NO "]
+    }, 
+    {
+      "tag": "AJAY SHASTRY C G",
+      "patterns": ["Tell me about AJAY SHASTRY C G","Faculty information for AJAY SHASTRY C G","Details about Professor AJAY SHASTRY C G"],
+      "responses": ["AJAY SHASTRY C G is a Professor   and Principal in the Department of Artificial Intelligence   and Machine Learning.He joined the institution on 01  07  2021."]
+      },
+    {
+      "tag":"AJAY SHASTRY C G Qualification",
+      "patterns":["Tell me about the qualifications of the faculty AJAY SHASTRY C G"],
+      "responses":["Qualifications: UG, BE, FC  60 perc  PG M.Tech, FCD PhD, NO "]
+    },
+    {
+      "tag": "Uma K P",
+      "patterns": ["Tell me about Uma K P","Faculty information for Uma K P ","Details about Professor Uma K P"],
+      "responses": ["Uma K P is a Professor in the Department of Computer Science   and Engineering.She joined the institution on 24  08  2020."]
+      
+    },
+    {
+      "tag":"Uma K P Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Uma K P"],
+      "responses":["Qualifications: UG, B.Sc, FC  62 perc  PG M.Tech, FCD  90  perc  PhD, YES"]
+    },
+    {
+      "tag": "Roopa G K",
+      "patterns": [
+        "Tell me about Roopa G K",
+        "Faculty information for Roopa G K",
+        "Details about Professor Roopa G K"
+      ],
+      "responses": [
+        "Roopa G K is a Professor in the Department of Computer Science and Engineering.She joined the institution on 20  08  2005."
+        
+      ]
+      
+    },
+    {
+      "tag":"Roopa G K Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Roopa G K"],
+      "responses":["Qualifications: UG, BE, FCD  74 perc  PG M.Tech, FCD  82 perc  PhD, NO "]
+    },
+    {
+      "tag": "Radhika Shetty D ",
+      "patterns": [
+        "Tell me about Radhika Shetty D ",
+        "Faculty information for Radhika Shetty D ",
+        "Details about Professor Radhika Shetty D "
+      ],
+      "responses": [
+        "Radhika Shetty D  is a Professor in the Department of Computer Science and Engineering.She joined the institution on 28  01  2008."
+        
+      ]
+      
+    },
+    {
+      "tag":"Radhika Shetty D Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Radhika Shetty D "],
+      "responses":["Qualifications: UG BE FCD  71.6 perc  PG M.Tech FCD  79 perc  PhD NO "]
+    },
+    {
+      "tag": "Pramod Kumar P M",
+      "patterns": [
+        "Tell me about Pramod Kumar P M",
+        "Faculty information for Pramod Kumar P M",
+        "Details about Professor Pramod Kumar P M"
+      ],
+      "responses": [
+        "Pramod Kumar P M is a Professor in the Department of Computer Science and Engineering.He joined the institution on 18  07  2012."
+        
+      ]
+      
+    },
+    {
+      "tag":"Pramod Kumar P M Qualification",
+      "patterns":["Tell me about the qualifications of the faculty Pramod Kumar P M"],
+      "responses":["Qualifications: UG BE SC  57 perc  PG M.Tech FCD  72 perc "]
+    },
+    {
+      "tag": "SAVITHA M",
+      "patterns": [
+        "Tell me about SAVITHA M",
+        "Faculty information for SAVITHA M",
+        "Details about Professor SAVITHA M"
+      ],
+      "responses": [
+        "SAVITHA M is a Professor in the Department of Computer Science and Engineering.She joined the institution on 30  09  2022."
+        
+      ]
+      
+    },
+    {
+      "tag":"SAVITHA M Qualification",
+      "patterns":["Tell me about the qualifications of the faculty SAVITHA M"],
+      "responses":["Qualifications: UG, BE, SC  59 perc  PG M.Tech, FCD  8.90 CGPA PhD NO "]
+    },
+    {
+      "tag": "SHRINIDHI A",
+      "patterns": [
+        "Tell me about SHRINIDHI A",
+        "Faculty information for SHRINIDHI A",
+        "Details about Professor SHRINIDHI A"
+      ],
+      "responses": [
+        "SHRINIDHI A is a Professor in the Department ofComputer Science and Engineering.He joined the institution on 15  09  2022 ."
+        
+      ]
+      
+    },
+   
+    {
+      "tag":"SHRINIDHI A Qualification",
+      "patterns":["Tell me about the qualifications of the faculty SHRINIDHI A"],
+      "responses":[" Qualifications: UG BE F  60.22 perc  PG M.Tech, FCD  9.34  CGPA   PhD NO"]
+    },
+  
+  {
+    "tag": "thanks",
+    "patterns": ["Thanks", "Thank you", "Appreciate it", "Thanks a lot"],
+    "responses": ["You're welcome ", "Anytime ", "Happy to help "]
+  },
+  {
+    "tag": "Internals  5 sem",
+    "patterns": ["Tell me details for the 5th sem Internals","Tell me details for the 5th semester IA test","Tell me details for the 5 sem IA test", "Tell me details for the 5 semester","Tell me details for the fifth sem internals","Tell me details for the fifth semester IA test", "Details for Semester 5 IA" ,"Sem 5 IA, Sem 5 internals"
+    ],
+    "responses": ["JAN 3 to 5, IA Test1 | JAN 31 to FEB 1, IA Test2 | MARCH 6 to 9, IA Test3" ]
+  },
+  {
+    "tag": "Internals  1 sem",
+    "patterns": ["Tell me details for the 1 sem Internals","Tell me details for the 1st semester IA test","Tell me details for the 1 sem IA test", "Tell me details for the 1 semester","Tell me details for the first sem internals","Tell me details for the first semester IA test", "Details for Semester 1 IA" ,"Sem 1 IA", "Sem 1 internals"
+    ],
+    "responses": ["NOV 9 to 11, IA Test1 | JAN 3 to 5, IA Test2 " ]
+  },
+  {
+    "tag": "Internals  3 sem",
+    "patterns": ["Tell me details for the 3rd sem Internals","Tell me details for the 3rd semester IA test","Tell me details for the 3 sem IA test", "Tell me details for the 3 semester","Tell me details for the third sem internals","Tell me details for the third semester IA test", "Details for Semester 3 IA" , "Sem 3 IA, Sem 3 internals"
+    ],
+    "responses": ["JAN 3 to 5, IA Test1 | FEB 16 to 20, IA Test2  "]
+  },
+  {
+    "tag": "Internals  7 sem",
+    "patterns": ["Tell me details for the 7th sem Internals","Tell me details for the 7th semester IA test","Tell me details for the 7 sem IA test", "Tell me details for the 7 semester","Tell me details for the seventh sem internals","Tell me details for the seventh semester IA test", "Details for Semester 7 IA", "Sem 7 IA, Sem 7 internals"
+    ],
+    "responses": ["OCT 16 to 18, IA Test1.| NOV 27 to 29, IA Test2 | JAN 3 to 5, IA Test3" ]
+  },
+  {
+    "tag": "Holidays",
+    "patterns": ["When are the holidays?", "holidays?", "Leaves?", "Christmas holiday?","when is the next holiday"],
+    "responses": ["25 DEC CHRISTMAS | 15 JAN MAKARA SANKRANTHI " ]
+  }
+     
+
+
+
+
+  ]
+}

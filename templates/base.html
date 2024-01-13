@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+<link rel="stylesheet" href="templates\index.css">
+<link rel="stylesheet" type="text/css" href="template/index.css">
+
+
+
+<head>
+    <link rel="stylesheet" type="text/css" href="template/index.css">
+    <style>
+        /* Reset some default styles */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    
+  
+  
+}
+body{
+    background-image: url('https://emango.s3.amazonaws.com/media/cache/f1/ce/f1ce99d1e2651ede7946c533beee5f9b.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 5;
+}
+
+/* Set box-sizing to border-box for all elements */
+* {
+    box-sizing: border-box;
+}
+
+/* Basic styling for the header */
+.header {
+    background: url("path/to/your/bg-image.jpg") center center/cover no-repeat; /* Replace with your background image path */
+    color: #fff; /* Text color on the background image */
+    padding: 20px 0;
+    position: relative;
+}
+
+/* Styling for the top section of the header */
+.header__top {
+    padding: 10px 0;
+}
+
+.logo__img--small img {
+    max-height: 40px;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: #fff; /* Logo text color on the background image */
+}
+
+.navbar-light .navbar-toggler-icon {
+    border-color: #fff; /* Toggler icon color on the background image */
+}
+
+/* Styling for the middle section of the header */
+.header__mid {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for the middle section */
+    padding: 10px 0;
+}
+
+.logo__img img {
+    max-height: 60px;
+}
+
+.header__mid__text {
+    font-size: 1.2rem;
+}
+
+/* Styling for the bottom section of the header */
+.header__btm {
+    background-color: rgba(255, 255, 255, 0.8); /* Background color for the bottom section */
+    padding: 10px 0;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+/* Style the dropdown menus */
+.dropdown-menu {
+    border: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown-item {
+    color: #333;
+}
+
+/* Add a subtle hover effect to navigation links */
+.navbar-nav .nav-item:hover .nav-link {
+    color: #007bff;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 767px) {
+    .header__mid {
+        text-align: center;
+    }
+
+    .header__mid__text {
+        margin-top: 10px;
+    }
+
+    .navbar-toggler {
+        border-color: #fff;
+    }
+
+    .navbar-toggler-icon {
+        background-color: #fff;
+    }
+}
+
+    </style>
+    <meta charset="UTF-8">
+    <title>Chatbot</title>
+    <style>
+       
+        </style>
+</head>
+<body>
+    <header class="header">
+        <!-- Top Section -->
+        <div class="header__top bg-light">
+            <div class="container">
+                
+    
+               
+    
+               
+            </div>
+        </div>
+    
+        <!-- Middle Section -->
+        <div class="header__mid">
+            <div class="container py-3">
+                <div class="row position-relative">
+                    <!-- Logo and College Name -->
+                    <div class="col-lg-10 logo d-flex align-items-center">
+                        <a href="/" class="logo__img">
+                            <img src="https://vcetputtur.ac.in/img/vcet-logo@2x.png" alt="VCET Logo">
+                        </a>
+                        <h1 class="h6 ml-3 mb-0 header__mid__text">
+                            <a href="/" class="logo__title d-sm-block d-md-block d-lg-block text-uppercase ">
+                                Vivekananda
+                                <span class="next-block caps-label">College of Engineering &amp; Technology</span>
+                                <span class="d-block location_tag text-capitalize">&ensp;Puttur</span>
+                            </a>
+                        </h1>
+                    </div>
+    
+                    <!-- Navbar Toggle for Small Screens -->
+                    <div class="navbar-light d-lg-none">
+                        <button class="navbar-toggler header__toggle" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+    
+                    <!-- Contact Information (Displayed for Large Screens) -->
+                    <div class="col-lg-2 d-lg-flex justify-content-end d-none">
+                        <div class="header__info d-flex align-items-center">
+                            
+                            <span class="header__it ml-3">
+                                <a href="tel:+91 8251 235955">+91 8251 235955</a><br>
+                                <a href="mailto:principal@vcetputtur.ac.in">principal@vcetputtur.ac.in</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Bottom Section -->
+        <div class="header__btm">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg navbar-light p-0">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto">
+                            <!-- Add your main navigation links here -->
+                            <li class="nav-item">
+                                <a class="nav-link" href="/">Home</a>
+                            </li>
+                            <!-- ... (other main navigation links) ... -->
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+   
+<div class="container">
+    <div class="chatbox">
+        <div class="chatbox__support">
+            <div class="chatbox__header">
+                <div class="chatbox__image--header">
+                    <img src="https://vcetputtur.ac.in/img/vcet-logo@2x.png" alt="image" width="60" height="40">
+                </div>
+                <div class="chatbox__content--header">
+                    <h4 class="chatbox__heading--header">Chat support</h4>
+                    <p class="chatbox__description--header">Hi. I am VCET. How can I help you?</p>
+                </div>
+            </div>
+            <div class="chatbox__messages">
+                <div></div>
+            </div>
+            <div class="chatbox__footer">
+                <input type="text" placeholder="Write a message...">
+                <button class="chatbox__send--footer send__button">Send</button>
+            </div>
+        </div>
+        <div class="chatbox__button">
+            <button><img src="{{ url_for('static', filename='images/chatbox-icon.svg') }}" /></button>
+        </div>
+    </div>
+</div>
+
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script type="text/javascript" src="{{ url_for('static', filename='app.js') }}"></script>
+
+</body>
+</html>
