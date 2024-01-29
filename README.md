@@ -36,6 +36,8 @@ the following command to test it in the console.
 $ (venv) python chat.py
 ```
 
+# Implementation 
 
-
+[<img src="https://img.youtube.com/vi/OimrifZTsxY/hqdefault.jpg" width="1080" height="720"
+/>](https://www.youtube.com/embed/OimrifZTsxY)
 
