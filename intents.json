@@ -348,6 +348,19 @@
       
     },
     {
+      "tag": "Basic science HOD",
+      "patterns": [
+        "Tell me about Hod basic science",
+        "Faculty information for Head of the Department of Basic Science",
+        "Details about Maths HOD"
+      ],
+      "responses": [
+        "M RAMANANDA KAMATH is Associate Professor   and Head in the Department of Basic Science   Mathematics  .He joined the institution on 16  01  2015."
+        
+      ]
+      
+    },
+    {
       "tag":"M RAMANANDA KAMATH Qualification",
       "patterns":["Tell me about the qualifications of the faculty M RAMANANDA KAMATH"],
       "responses":["Qualifications:  UG, B.SC FCD  71.13 perc  PG M.Sc., FC  61.76 perc  PhD NO        "]
