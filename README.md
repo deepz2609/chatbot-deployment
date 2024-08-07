@@ -1,43 +1,56 @@
+
 # Chatbot Deployment with Flask and JavaScript
 
+This project offers two deployment options for the chatbot:
 
-This gives 2 deployment options:
-- Deploy within Flask app with jinja2 template
-- Serve only the Flask prediction API. The used html and javascript files can be included in any Frontend application (with only a slight modification) and can run completely separate from the Flask App then.
+1. **Deploy within a Flask app using Jinja2 templates**
+2. **Serve only the Flask prediction API**
+   - The HTML and JavaScript files can be integrated into any frontend application, running independently from the Flask app with minimal modifications.
 
-## Initial Setup:
-This repo currently contains the starter files.
+## Initial Setup
 
-Clone repo and create a virtual environment
-```
-$ cd chatbot-deployment
-$ python3 -m venv venv
-$ . venv/bin/activate
-```
-Install dependencies
-```
-$ (venv) pip install Flask torch torchvision nltk
-```
-Install nltk package
-```
-$ (venv) python
->>> import nltk
->>> nltk.download('punkt')
-```
-Modify `intents.json` with different intents and responses for your Chatbot
+Follow these steps to set up the project:
 
-Run
-```
-$ (venv) python train.py
-```
-This will dump data.pth file. And then run
-the following command to test it in the console.
-```
-$ (venv) python chat.py
-```
+1. **Clone the repository and create a virtual environment:**
+   ```bash
+   $ git clone https://github.com/deepz2609/chatbot-deployment.git
+   $ cd chatbot-deployment
+   $ python3 -m venv venv
+   $ . venv/bin/activate
+   ```
 
-# Implementation 
+2. **Install the necessary dependencies:**
+   ```bash
+   $ (venv) pip install Flask torch torchvision nltk
+   ```
 
-[<img src="https://img.youtube.com/vi/OimrifZTsxY/hqdefault.jpg" width="1080" height="720"
-/>](https://www.youtube.com/embed/OimrifZTsxY)
+3. **Download the NLTK package:**
+   ```bash
+   $ (venv) python
+   >>> import nltk
+   >>> nltk.download('punkt')
+   ```
+
+4. **Modify `intents.json` to define your chatbot's intents and responses.**
+
+5. **Train the chatbot:**
+   ```bash
+   $ (venv) python train.py
+   ```
+   This command will generate the `data.pth` file.
+
+6. **Test the chatbot in the console:**
+   ```bash
+   $ (venv) python chat.py
+   ```
+
+## Implementation
+
+For a visual guide on implementing the chatbot, check out the video below:
+
+[![Chatbot Deployment Video](https://img.youtube.com/vi/OimrifZTsxY/hqdefault.jpg)](https://www.youtube.com/embed/OimrifZTsxY)
+
+## Repository
+
+Explore the complete code and additional resources in the [chatbot-deployment repository](https://github.com/deepz2609/chatbot-deployment).
 
